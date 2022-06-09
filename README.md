@@ -1,4 +1,2 @@
-### Build image
-`docker build -t sandbox-app:dev .`
-### Run container
-`docker run -it -P --rm sandbox-app:dev`
+### Build and run dev server
+`docker-compose -f docker-compose.yml up -d --force-recreate --build`
