@@ -9,7 +9,4 @@ RUN npm install --silent
 
 COPY . ./
 
-VOLUME .:/app /app/node_modules
-EXPOSE 3000
-
 CMD ["npm", "run", "dev"]
