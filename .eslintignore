@@ -1,0 +1,5 @@
+.git
+.husky
+.nginx
+dist
+node_modules
