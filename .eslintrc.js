@@ -27,6 +27,7 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.jsx'] }],
     'react/jsx-one-expression-per-line': 'off',
+    'react/no-unescaped-entities': 'off',
   },
   overrides: [
     {
