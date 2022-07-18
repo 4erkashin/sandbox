@@ -11,3 +11,15 @@ I wanna do stuff like https://ciechanow.ski/ about everything I'm interesting
 run `docker-compose up dev -d`
 
 go `localhost:5173`
+
+## FSD TL;DR
+```shell
+└── src/
+    ├── app/                    # App init logic
+    ├── processes/              # (Optional) Processes, flowing over the pages
+    ├── pages/                  # App pages
+    ├── widgets/                # (Optional) Independent content blocks
+    ├── features/               # User stories
+    ├── entities/               # Business logic
+    └── shared/                 # Utilities and common modules
+```
