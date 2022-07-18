@@ -23,9 +23,10 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'import/prefer-default-export': 'off',
+    'react/function-component-definition': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.jsx'] }],
     'react/jsx-one-expression-per-line': 'off',
-    'import/prefer-default-export': 'off',
   },
   overrides: [
     {
